@@ -9,7 +9,7 @@ function Thumbnail({ result }) {
     >
       <Image
         layout="responsive"
-        src={result.thumbnailUrl}
+        src='https://via.placeholder.com/1900x1080.jpg'
         height={1080}
         width={1920}
       />
@@ -18,7 +18,7 @@ function Thumbnail({ result }) {
           className="mt-1 text-2xl text-white translate-all duration-100
          ease-in-out group-hover:font-bold"
         >
-          {result.title}
+          {result.strain}
         </h2>
       </div>
     </div>

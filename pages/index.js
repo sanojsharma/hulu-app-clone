@@ -19,7 +19,7 @@ export default function Home({ results }) {
 }
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/photos`);
+  const res = await fetch(`https://random-data-api.com/api/cannabis/random_cannabis?size=10`);
   const data = await res.json();
   return {
     props: {
